@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 
 export interface SectionHeadingProps {
   eyebrow: string;

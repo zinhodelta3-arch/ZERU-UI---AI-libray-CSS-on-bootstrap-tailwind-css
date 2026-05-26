@@ -2,7 +2,7 @@
 
 import type { HTMLAttributes, ReactNode } from "react";
 import BootstrapCard from "react-bootstrap/Card";
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 
 export type CardVariant = "default" | "elevated" | "outline" | "soft" | "glass" | "gradient";
 

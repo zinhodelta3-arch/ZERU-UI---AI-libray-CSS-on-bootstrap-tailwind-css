@@ -1,12 +1,12 @@
 # ZERO UI Tailwind
 
-O pacote `@zero-ui/tailwind` usa Tailwind CSS moderno com `@theme`, `@custom-variant dark` e classes utilitarias proprias.
+O pacote `zeroui-tailwind` usa Tailwind CSS moderno com `@theme`, `@custom-variant dark` e classes utilitarias proprias.
 
 Importacao recomendada:
 
 ```tsx
-import "@zero-ui/tailwind/styles.css";
-import { Button, Card, Input } from "@zero-ui/tailwind";
+import "zeroui-tailwind/styles.css";
+import { Button, Card, Input } from "zeroui-tailwind";
 ```
 
 Dependencias esperadas:

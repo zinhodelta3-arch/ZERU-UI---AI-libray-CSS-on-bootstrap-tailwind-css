@@ -1,6 +1,6 @@
 # ZERO UI design system
 
-ZERO UI usa tokens compartilhados no pacote `@zero-ui/core` e implementacoes visuais separadas em Bootstrap e Tailwind.
+ZERO UI usa tokens compartilhados no pacote `zeroui-core` e implementacoes visuais separadas em Bootstrap e Tailwind.
 
 ## Principios
 

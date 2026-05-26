@@ -2,7 +2,7 @@
 
 import type { HTMLAttributes, ReactNode } from "react";
 import BootstrapBadge from "react-bootstrap/Badge";
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 
 export type BadgeVariant =
   | "primary"

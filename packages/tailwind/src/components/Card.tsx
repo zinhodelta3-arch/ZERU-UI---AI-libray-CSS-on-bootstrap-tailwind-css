@@ -2,7 +2,7 @@
 
 import type { HTMLAttributes, ReactNode } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 
 export const cardVariants = cva(
   "overflow-hidden border text-card-foreground shadow-zui-md transition duration-300",

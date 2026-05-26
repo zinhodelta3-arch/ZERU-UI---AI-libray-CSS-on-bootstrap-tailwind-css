@@ -1,7 +1,7 @@
 "use client";
 
 import type { HTMLAttributes, ReactNode } from "react";
-import { cn, type ZeroTheme } from "@zero-ui/core";
+import { cn, type ZeroTheme } from "zeroui-core";
 
 export interface ZeroBootstrapProviderProps extends HTMLAttributes<HTMLDivElement> {
   children?: ReactNode;

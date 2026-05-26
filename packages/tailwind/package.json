@@ -1,8 +1,16 @@
 {
-  "name": "@zero-ui/tailwind",
+  "name": "zeroui-tailwind",
   "version": "0.1.0",
+  "description": "ZERU UI React components styled for Tailwind CSS.",
+  "license": "MIT",
   "type": "module",
   "sideEffects": ["./src/styles/styles.css"],
+  "files": ["dist", "src/styles"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinhodelta3-arch/ZERU-UI---AI-libray-CSS-on-bootstrap-tailwind-css.git",
+    "directory": "packages/tailwind"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -21,7 +29,7 @@
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
-    "@zero-ui/core": "workspace:*",
+    "zeroui-core": "workspace:^0.1.0",
     "class-variance-authority": "latest"
   },
   "peerDependencies": {

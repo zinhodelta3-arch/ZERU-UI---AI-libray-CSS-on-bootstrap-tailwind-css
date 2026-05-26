@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 import { Card } from "./Card";
 
 export interface MetricProps {

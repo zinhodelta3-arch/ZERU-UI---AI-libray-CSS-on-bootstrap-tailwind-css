@@ -1,1 +1,1 @@
-export { useZeroTheme } from "@zero-ui/core";
+export { useZeroTheme } from "zeroui-core";

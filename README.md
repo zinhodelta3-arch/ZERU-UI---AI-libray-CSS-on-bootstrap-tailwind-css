@@ -2,10 +2,26 @@
 
 ZERO UI e uma biblioteca React em monorepo com duas versoes oficiais:
 
-- `@zero-ui/bootstrap`
-- `@zero-ui/tailwind`
+- `zeroui-bootstrap`
+- `zeroui-tailwind`
 
 A base original foi separada em pacotes independentes para manter Bootstrap e Tailwind com a mesma identidade visual, mas sem misturar dependencias ou estilos.
+
+## Instalar pelo npm
+
+Bootstrap:
+
+```bash
+npm install zeroui-bootstrap bootstrap react-bootstrap
+```
+
+Tailwind:
+
+```bash
+npm install zeroui-tailwind tailwindcss
+```
+
+Os pacotes tambem funcionam em projetos JSX. O codigo fonte da biblioteca e TSX, mas o pacote publicado entrega JavaScript compilado e tipos TypeScript.
 
 ## Estrutura
 
@@ -35,9 +51,9 @@ corepack pnpm test
 
 ## Uso com Bootstrap
 
-```tsx
-import "@zero-ui/bootstrap/styles.css";
-import { Button, Card, Input, ZeroBootstrapProvider } from "@zero-ui/bootstrap";
+```jsx
+import "zeroui-bootstrap/styles.css";
+import { Button, Card, Input, ZeroBootstrapProvider } from "zeroui-bootstrap";
 
 export function App() {
   return (
@@ -59,9 +75,9 @@ corepack pnpm add bootstrap react-bootstrap
 
 ## Uso com Tailwind
 
-```tsx
-import "@zero-ui/tailwind/styles.css";
-import { Button, Card, Input, ZeroTailwindProvider } from "@zero-ui/tailwind";
+```jsx
+import "zeroui-tailwind/styles.css";
+import { Button, Card, Input, ZeroTailwindProvider } from "zeroui-tailwind";
 
 export function App() {
   return (
@@ -80,6 +96,14 @@ Instale tambem:
 ```bash
 corepack pnpm add tailwindcss class-variance-authority
 ```
+
+## Pacotes publicados
+
+- [`zeroui-core`](https://www.npmjs.com/package/zeroui-core): tokens, tipos, hooks e utilitarios compartilhados.
+- [`zeroui-bootstrap`](https://www.npmjs.com/package/zeroui-bootstrap): componentes React para Bootstrap 5.3+.
+- [`zeroui-tailwind`](https://www.npmjs.com/package/zeroui-tailwind): componentes React para Tailwind CSS.
+
+Versao atual publicada: `0.1.0`.
 
 ## Estado atual
 

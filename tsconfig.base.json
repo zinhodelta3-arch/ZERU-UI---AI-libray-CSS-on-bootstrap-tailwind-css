@@ -13,9 +13,9 @@
     "moduleResolution": "Bundler",
     "baseUrl": ".",
     "paths": {
-      "@zero-ui/core": ["packages/core/src/index.ts"],
-      "@zero-ui/bootstrap": ["packages/bootstrap/src/index.ts"],
-      "@zero-ui/tailwind": ["packages/tailwind/src/index.ts"]
+      "zeroui-core": ["packages/core/src/index.ts"],
+      "zeroui-bootstrap": ["packages/bootstrap/src/index.ts"],
+      "zeroui-tailwind": ["packages/tailwind/src/index.ts"]
     },
     "ignoreDeprecations": "6.0",
     "resolveJsonModule": true,

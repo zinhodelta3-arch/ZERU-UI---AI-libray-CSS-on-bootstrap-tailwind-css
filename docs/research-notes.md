@@ -12,7 +12,7 @@ Fontes:
 
 O que foi aproveitado:
 
-- Bootstrap 5.3 segue como camada de integracao para a versao `@zero-ui/bootstrap`.
+- Bootstrap 5.3 segue como camada de integracao para a versao `zeroui-bootstrap`.
 - A biblioteca usa classes oficiais onde faz sentido (`btn`, `card`, `badge`, `form-control`, `spinner-border`) e adiciona uma camada visual propria com prefixo `zui-*`.
 - A estrategia de tema usa `data-bs-theme` para compatibilidade com o Bootstrap e `data-zui-theme` para tokens da ZERO UI.
 - Variaveis CSS sao a base dos temas para permitir troca em tempo real sem exigir recompilacao Sass.
@@ -46,7 +46,7 @@ O que foi aproveitado:
 Escolhas feitas:
 
 - Manter `class-variance-authority` para variantes de componentes.
-- Usar `@zero-ui/core` para `cn()`, tokens, tipos e hooks compartilhados.
+- Usar `zeroui-core` para `cn()`, tokens, tipos e hooks compartilhados.
 - Criar classes utilitarias `zui-bg-*`, `zui-text-*` e `zui-animate-*` no CSS do pacote.
 
 Escolhas evitadas:

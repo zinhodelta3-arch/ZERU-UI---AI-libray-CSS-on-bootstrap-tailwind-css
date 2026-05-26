@@ -2,7 +2,7 @@
 
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn, type ZeroRadius, type ZeroVisualVariant } from "@zero-ui/core";
+import { cn, type ZeroRadius, type ZeroVisualVariant } from "zeroui-core";
 
 export type ButtonVariant = ZeroVisualVariant;
 export type ButtonSize = "xs" | "sm" | "md" | "lg" | "xl" | "icon";

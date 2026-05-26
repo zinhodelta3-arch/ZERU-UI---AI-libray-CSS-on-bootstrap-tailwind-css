@@ -1,7 +1,7 @@
 "use client";
 
 import type { InputHTMLAttributes, ReactNode } from "react";
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 
 export type InputSize = "sm" | "md" | "lg";
 export type InputState = "default" | "success" | "warning" | "danger";

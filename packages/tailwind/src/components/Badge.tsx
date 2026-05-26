@@ -2,7 +2,7 @@
 
 import type { HTMLAttributes, ReactNode } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@zero-ui/core";
+import { cn } from "zeroui-core";
 
 export const badgeVariants = cva(
   "inline-flex min-h-8 items-center gap-2 rounded-[7px] border px-3 py-1 text-xs font-semibold uppercase",
