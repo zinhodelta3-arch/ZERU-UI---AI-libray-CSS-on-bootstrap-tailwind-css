@@ -29,7 +29,7 @@
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
-    "zeroui-core": "workspace:^0.1.0",
+    "zeroui-core": "^0.1.0",
     "class-variance-authority": "latest"
   },
   "peerDependencies": {
