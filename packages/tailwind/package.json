@@ -1,0 +1,35 @@
+{
+  "name": "@zero-ui/tailwind",
+  "version": "0.1.0",
+  "type": "module",
+  "sideEffects": ["./src/styles/styles.css"],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./src/styles/styles.css"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@zero-ui/core": "workspace:*",
+    "class-variance-authority": "latest"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "tailwindcss": ">=4.0.0"
+  },
+  "devDependencies": {
+    "react": "latest",
+    "tailwindcss": "latest"
+  }
+}
