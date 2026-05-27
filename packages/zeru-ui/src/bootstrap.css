@@ -1,0 +1,47 @@
+@import "./core.css";
+
+.btn.zu-btn {
+  border-radius: var(--zu-radius-md);
+  font-weight: 750;
+}
+
+.btn.zu-btn-primary,
+.btn.zu-btn-gradient {
+  background: var(--zu-gradient-primary);
+  border-color: color-mix(in srgb, var(--zu-primary) 46%, white 12%);
+  color: var(--zu-primary-contrast);
+}
+
+.card.zu-card {
+  border-color: var(--zu-border);
+  border-radius: var(--zu-radius-xl);
+  background: var(--zu-surface);
+  color: var(--zu-text);
+}
+
+.badge.zu-badge {
+  border-radius: var(--zu-radius-full);
+}
+
+.form-control.zu-input,
+.form-select.zu-select {
+  border-color: var(--zu-border);
+  border-radius: var(--zu-radius-md);
+  background: var(--zu-surface);
+  color: var(--zu-text);
+}
+
+.modal-content.zu-modal-content,
+.zu-modal .modal-content {
+  border: 1px solid var(--zu-border);
+  border-radius: var(--zu-radius-xl);
+  background: var(--zu-surface);
+  color: var(--zu-text);
+  box-shadow: var(--zu-shadow-2xl);
+}
+
+.table.zu-table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--zu-text);
+  --bs-table-border-color: var(--zu-border);
+}

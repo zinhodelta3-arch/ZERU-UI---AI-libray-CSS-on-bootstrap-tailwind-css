@@ -1,0 +1,52 @@
+{
+  "name": "zeru-ui",
+  "version": "0.1.0",
+  "description": "Unified premium CSS, React and motion layer for ZERU UI.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": ["**/*.css"],
+  "files": ["dist", "src/*.css"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinhodelta3-arch/ZERU-UI---AI-libray-CSS-on-bootstrap-tailwind-css.git",
+    "directory": "packages/zeru-ui"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./core.css": "./src/core.css",
+    "./bootstrap.css": "./src/bootstrap.css",
+    "./tailwind.css": "./src/tailwind.css",
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js",
+      "require": "./dist/react.cjs"
+    },
+    "./motion": {
+      "types": "./dist/motion.d.ts",
+      "import": "./dist/motion.js",
+      "require": "./dist/motion.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts src/react.tsx src/motion.tsx --dts --format esm,cjs --clean",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "zeroui-core": "^0.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "devDependencies": {
+    "react": "latest"
+  }
+}

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import "./core.css";
+
+@custom-variant dark (&:where(.dark, .dark *, .zu-theme-dark, .zu-theme-dark *, [data-zu-theme="dark"], [data-zu-theme="dark"] *));
+
+@theme {
+  --font-sans: var(--zu-font-sans);
+  --font-display: var(--zu-font-display);
+  --font-mono: var(--zu-font-mono);
+
+  --color-background: var(--zu-bg);
+  --color-foreground: var(--zu-text);
+  --color-card: var(--zu-surface);
+  --color-card-foreground: var(--zu-text);
+  --color-surface: var(--zu-surface);
+  --color-surface-soft: var(--zu-surface-soft);
+  --color-muted: var(--zu-surface-soft);
+  --color-muted-foreground: var(--zu-text-muted);
+  --color-primary: var(--zu-primary);
+  --color-primary-foreground: var(--zu-primary-contrast);
+  --color-secondary: var(--zu-secondary);
+  --color-accent: var(--zu-accent);
+  --color-success: var(--zu-success);
+  --color-warning: var(--zu-warning);
+  --color-danger: var(--zu-danger);
+  --color-info: var(--zu-info);
+  --color-border: var(--zu-border);
+  --color-ring: var(--zu-ring);
+  --color-input: var(--zu-surface);
+
+  --radius-zu-xs: var(--zu-radius-xs);
+  --radius-zu-sm: var(--zu-radius-sm);
+  --radius-zu-md: var(--zu-radius-md);
+  --radius-zu-lg: var(--zu-radius-lg);
+  --radius-zu-xl: var(--zu-radius-xl);
+  --radius-zu-2xl: var(--zu-radius-2xl);
+  --radius-zu-full: var(--zu-radius-full);
+
+  --shadow-zu-sm: var(--zu-shadow-sm);
+  --shadow-zu-md: var(--zu-shadow-md);
+  --shadow-zu-lg: var(--zu-shadow-lg);
+  --shadow-zu-xl: var(--zu-shadow-xl);
+  --shadow-zu-glow: var(--zu-shadow-glow);
+  --shadow-zu-glass: var(--zu-shadow-glass);
+
+  --animate-zu-fade-in: zu-fade-in var(--zu-transition-base) both;
+  --animate-zu-fade-up: zu-fade-up 520ms var(--zu-ease-premium) both;
+  --animate-zu-scale-in: zu-scale-in 300ms var(--zu-ease-spring) both;
+  --animate-zu-shimmer: zu-shimmer 1.2s linear infinite;
+}

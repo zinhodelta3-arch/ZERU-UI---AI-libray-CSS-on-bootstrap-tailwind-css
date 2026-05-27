@@ -12,6 +12,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@testing-library/react": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
@@ -20,6 +21,7 @@
     "prettier": "latest",
     "tsup": "latest",
     "typescript": "latest",
+    "typescript-eslint": "^8.60.0",
     "vitest": "latest"
   }
 }

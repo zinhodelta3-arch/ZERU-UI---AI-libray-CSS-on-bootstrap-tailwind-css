@@ -15,7 +15,10 @@
     "paths": {
       "zeroui-core": ["packages/core/src/index.ts"],
       "zeroui-bootstrap": ["packages/bootstrap/src/index.ts"],
-      "zeroui-tailwind": ["packages/tailwind/src/index.ts"]
+      "zeroui-tailwind": ["packages/tailwind/src/index.ts"],
+      "zeru-ui": ["packages/zeru-ui/src/index.ts"],
+      "zeru-ui/react": ["packages/zeru-ui/src/react.tsx"],
+      "zeru-ui/motion": ["packages/zeru-ui/src/motion.tsx"]
     },
     "ignoreDeprecations": "6.0",
     "resolveJsonModule": true,
